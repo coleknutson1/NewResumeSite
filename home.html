@@ -30,7 +30,8 @@
                 <nav id="nav">
                     <ul class="nav-default">
                         <!-- Nav items -->
-                        <li><a class="active" data-nav="about-me" href="#about-me">About Me</a></li>
+                        <li><a class="active">Top</a></li>
+                        <li><a data-nav="about-me" href="#about-me">About Me</a></li>
                         <li><a data-nav="resume" href="#resume">Resume</a></li>
                         <li><a data-nav="contact" href="#contact">Contact</a></li>
                     </ul>
@@ -65,11 +66,25 @@
 </div>
 
 <div id="center" id="links">
-	<div id="about-me">
+	<div id="about-me" class="page-header">
+		About Me
+	</div>
+	<div id="about-me-section">		
 		I like doing stuff. And guitar and stuff. Placeholder text.............................. a;lksjdfjl ajs;ldj ;lakjsdl;k jal;ksjdlj ;dkljl;k jl;j;lj;l
+		<video id="video1" style="width:300px;max-width:100%;" controls="" autoplay loop>
+    	<source src="img/platformer.webm" type="video/webm">
+    		Your browser does not support HTML5 video.
+  		</video>
+  		<video id="video1" style="width:300px;max-width:100%;" controls="" autoplay loop>
+    	<source src="img/collision.webm" type="video/webm">
+    		Your browser does not support HTML5 video.
+  		</video>
 	</div>
 	<!-- Resume -->
-	<div id="resume">
+	<div id="resume" class="page-header">
+		Resume
+	</div>
+	<div id="resume-section">		
 		<ul>
 			<li><a data-nav="imagetrend" href="#imagetrend">ImageTrend</a></li>
 			<li><a data-nav="maverick" href="#maverick">Maverick</a></li>
@@ -88,19 +103,20 @@
 			<p>
 			Minnesota State University, Mankato Minor: English May 2015 Bachelor of Science: Information Technology                                                                          GPA: 3.2
 			</p>
-		</div>
-		<div id="contact">
-			Gmail: cole.knutson1@gmail.com
-		</div>
+		</div>		
 	</div>
-
+	<div id="contact" class="page-header">
+		Contact Me
+	</div>
+	<div id="contact-section">
+		Gmail: cole.knutson1@gmail.com
+	</div>
     <ul>
         <!-- Links -->
-
         <li><a href="Resume.pdf" download>Click to download PDF resume</a></li>
     </ul>
 </div>
-
+<
 <!-- Minified JS -->
 <script src="dist/scripts.min.js"></script>
 

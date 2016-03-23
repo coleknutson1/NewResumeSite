@@ -439,12 +439,13 @@ h3 a:hover {
     color: white !important;
 }
 
-p {
+#center p {
     color: black;
     line-height: 26px;
     font-size: 14px;
     padding-top: 25px;
-    padding-bottom: 25px
+    padding-bottom: 25px;
+    margin-left:1.5em;
 }
 .buffer-top {
     margin-top: 10px
@@ -467,7 +468,6 @@ p {
     text-align: left
 }
 #center {
-    text-align: center;
     width: 100%;
     padding: 0;
     background: #f3f3f3;
@@ -475,12 +475,13 @@ p {
     color: #818181;
     font-family: 'open sans', sans-serif;
     clear: both;
+    margin-bottom: 50px;
 }
-#resume {
+#resume-section {
     display: flex;
-    padding-bottom:900px;
+    padding-bottom:400px;
 }
-#center #resume ul {
+#center #resume-section ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -488,7 +489,7 @@ p {
     height: 240px;
 }
 
-#center #resume li a {
+#center #resume-section li a {
     display: block;
     background-color: rgba(216, 216, 216, 0.65);
     color: #000;
@@ -505,9 +506,17 @@ p {
 }
 
 /* Change the link color on hover */
-#center #resume li a:hover {
+#center #resume-section li a:hover {
     background-color: #555;
     color: white;
+}
+
+.page-header
+{
+    font-family: Geneva, Tahoma, Verdana, sans-serif;
+    color: #000000;
+    font-size: 28px;
+    text-shadow: -2px 3px 1px rgba(161, 161, 161, 0.38);
 }
 
 div.resume-header {
@@ -707,9 +716,6 @@ a.btn:hover {
     }
 }
 @media (max-width: 1072px) {
-    #contact-form .button {
-        width: 100%
-    }
     .container {
         padding: 0 30px;
         text-align: center;
@@ -820,4 +826,8 @@ a.btn:hover {
 
 #dropdown-container{
     display:flex;
+}
+
+#contact-section{
+    padding-bottom:500px;
 }
