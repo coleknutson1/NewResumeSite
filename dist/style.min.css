@@ -241,8 +241,13 @@ h3 a {
     right: 0;
     left: 0;
     position: absolute;
-    margin: 40px 20px 10px 50px;
-    border-radius: 3px;
+    margin: 0 25px 0 65px;
+    border-radius: 33px;
+    -webkit-animation: fadein 1s;
+    -moz-animation: fadein 1s;
+    -ms-animation: fadein 1s;
+    -o-animation: fadein 1s;
+    animation: fadein 1s;
 }
 #dropdown ul li {
     display: block;
@@ -430,6 +435,10 @@ h3 a {
 h3 a:hover {
     color: #F04
 }
+#carousel p {
+    color: white !important;
+}
+
 p {
     color: black;
     line-height: 26px;
@@ -744,6 +753,12 @@ a.btn:hover {
 @media (max-width: 800px) {
     .nav-fixed {
         position: relative!important
+    }
+}
+@media (min-width: 691px)
+{
+    #dropdown{
+        display:none;
     }
 }
 @media (max-width: 690px) {
