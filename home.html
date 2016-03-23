@@ -20,51 +20,51 @@
 
 <body class="index cf" id="top">
 
-
-<header class="header-container">
-<img id="bg-cover" src="img/homeslider.jpg" alt="bg">
-    <div class="default" id="header">
-        <div class="container container-top">            
-            <!-- Navigation -->                
-            <div class="float-left">
-                <nav id="nav">
-                    <ul class="nav-default">
-                        <!-- Nav items -->
-                        <li><a class="active">Top</a></li>
-                        <li><a data-nav="about-me" href="#about-me">About Me</a></li>
-                        <li><a data-nav="resume" href="#resume">Resume</a></li>
-                        <li><a data-nav="contact" href="#contact">Contact</a></li>
-                    </ul>
-                        <!-- Hamburger -->
-                        <div id="dropdown-container">
-		                    <a id="hamburger" href="#" class="hamburger" data-bind="click: function(){HamburgerActive(!HamburgerActive());}, css: { 'hamburger-invert' : HamburgerActive}"></a>
-		                    <div id="dropdown" data-bind="visible: HamburgerActive"> 
-		                        <ul>
-		                            <!-- Nav items -->
-		                            <a href="#about-me"><li>About Me</li></a>
-		                            <a href="#resume"><li>Resume</li></a>
-		                            <a href="#contact"><li>Contact</li></a>
-		                        </ul>
-		                    </div>
-                        </div>
-                </nav>
-            </div>
-        </div>
-    </div>
-</header>
-
-<main>
-<!-- Fold -->
-<div id="carousel">
-    <div class="container">
-        <div class="buffer-top" id="hero">        
-            <!-- Introduction -->                
-            <h1 class="fadein-fast">Cole Knutson</h1>
-            <p class="fadein-fast">I am a front-end developer based in the Twin Cities. I love creating and modifying websites.</p>
-        </div>
-    </div>
+<div id="main-viewport">
+	<header class="header-container">
+	<img id="bg-cover" src="img/homeslider.jpg" alt="bg">
+	    <div class="default" id="header">
+	        <div class="container container-top">            
+	            <!-- Navigation -->                
+	            <div class="float-left">
+	                <nav id="nav">
+	                    <ul class="nav-default">
+	                        <!-- Nav items -->
+	                        <li><a class="active">Top</a></li>
+	                        <li><a data-nav="about-me" href="#about-me">About Me</a></li>
+	                        <li><a data-nav="resume" href="#resume">Resume</a></li>
+	                        <li><a data-nav="contact" href="#contact">Contact</a></li>
+	                    </ul>
+	                        <!-- Hamburger -->
+	                        <div id="dropdown-container">
+			                    <a id="hamburger" href="#" class="hamburger" data-bind="click: function(){HamburgerActive(!HamburgerActive());}, css: { 'hamburger-invert' : HamburgerActive}"></a>
+			                    <div id="dropdown" data-bind="visible: HamburgerActive"> 
+			                        <ul>
+			                            <!-- Nav items -->
+			                            <a href="#about-me"><li>About Me</li></a>
+			                            <a href="#resume"><li>Resume</li></a>
+			                            <a href="#contact"><li>Contact</li></a>
+			                        </ul>
+			                    </div>
+	                        </div>
+	                </nav>
+	            </div>
+	        </div>
+	    </div>
+	</header>
+	<!-- Fold -->
+	<div id="carousel">
+	    <div class="container">
+	        <div class="buffer-top" id="hero">        
+	            <!-- Introduction -->                
+	            <h1 class="fadein-fast">Cole Knutson</h1>
+	            <p class="fadein-fast">I am a front-end developer based in the Twin Cities. I love creating and modifying websites.</p>
+	        </div>
+	    </div>
+	</div>
 </div>
 
+<main>
 <div id="center" id="links">
 	<div id="about-me" class="page-header">
 		About Me

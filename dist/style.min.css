@@ -160,7 +160,8 @@ table {
 .container {
     font-family: 'Open Sans', sans-serif;
     width: 900px;
-    margin: 0 auto
+    margin: 0 auto;
+    text-align: center;
 }
 .portfolio-item {
     padding-top: 125px;
@@ -448,7 +449,7 @@ h3 a:hover {
     margin-left:1.5em;
 }
 .buffer-top {
-    margin-top: 10px
+    margin-top: 10vh;
 }
 .buffer-bottom {
     margin-bottom: 10px
@@ -462,7 +463,9 @@ h3 a:hover {
     color: #FF0D13!important
 }
 .float-left {
-    float: left
+    float: left;
+    transform: translateX(-25vh);
+
 }
 .pull-left {
     text-align: left
@@ -830,4 +833,8 @@ a.btn:hover {
 
 #contact-section{
     padding-bottom:500px;
+}
+
+#main-viewport{
+    height:100vh;
 }
