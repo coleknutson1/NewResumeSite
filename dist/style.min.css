@@ -474,7 +474,7 @@ h3 a:hover {
 }
 #center {
     width: 100%;
-    padding: 90px 0 0 0;
+    padding: 175px 0 0 0;
     background: #f3f3f3;
     font-size: 11px;
     color: #818181;
@@ -853,4 +853,8 @@ a.btn:hover {
     position:fixed;
     top:0;
     background: rgb(139, 195, 74);
+}
+
+#nav ul {
+    cursor: pointer;
 }
