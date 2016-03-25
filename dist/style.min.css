@@ -262,7 +262,9 @@ h3 a {
     border-bottom: rgb(89, 168, 149) 4px solid;
 }
 .header-container {
-    height: 90px
+    height: 90px;
+    background: rgba(95, 158, 160, 0.61);
+    border-radius: 5px;
 }
 #social img {
     width: 22px;
@@ -472,7 +474,7 @@ h3 a:hover {
 }
 #center {
     width: 100%;
-    padding: 0;
+    padding: 90px 0 0 0;
     background: #f3f3f3;
     font-size: 11px;
     color: #818181;
@@ -518,8 +520,9 @@ h3 a:hover {
 {
     font-family: Geneva, Tahoma, Verdana, sans-serif;
     color: #000000;
-    font-size: 28px;
+    font-size: 50px;
     text-shadow: -2px 3px 1px rgba(161, 161, 161, 0.38);
+    padding: 10px 0 0 30px;
 }
 
 div.resume-header {
@@ -837,4 +840,16 @@ a.btn:hover {
 
 #main-viewport{
     height:100vh;
+}
+
+.separator {    
+    margin: 100px 0 100px 0;
+    background: url(../img/separator.png);
+    height: 9px;
+    width: 576px;
+}
+
+.fixed {
+    position:fixed !important;
+    top:0 !important;
 }
