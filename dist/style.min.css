@@ -843,7 +843,7 @@ a.btn:hover {
 }
 
 .separator {    
-    margin: 100px 0 100px 0;
+    margin: 200px auto 200px auto;
     background: url(../img/separator.png);
     height: 9px;
     width: 576px;
@@ -853,3 +853,5 @@ a.btn:hover {
     position:fixed !important;
     top:0 !important;
 }
+
+html, body {height:100%;overflow:auto}
