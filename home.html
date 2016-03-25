@@ -16,38 +16,41 @@
     <meta content="width=device-width, user-scalable=no" name="viewport">
     <script src="dist/knockout-3.4.0.js" type="text/javascript"></script>
     <script src="dist/jquery-1.12.2.min.js" type="text/javascript"></script>
+	<!-- Minified JS -->
+	<script src="dist/scripts.min.js"></script>
+
 </head>
-<header class="header-container">
-	<img id="bg-cover" src="img/homeslider.jpg" alt="bg">
-	    <div class="default" id="header">
-	        <div class="container container-top">            
-	            <!-- Navigation -->                
-	            <div class="float-left">
-	                <nav id="nav">
-	                    <ul class="nav-default">
-	                        <!-- Nav items -->
-	                        <li><a class="active">Top</a></li>
-	                        <li><a data-nav="about-me" href="#about-me">About Me</a></li>
-	                        <li><a data-nav="resume" href="#resume">Resume</a></li>
-	                        <li><a data-nav="contact" href="#contact">Contact</a></li>
-	                    </ul>
-	                        <!-- Hamburger -->
-	                        <div id="dropdown-container">
-			                    <a id="hamburger" href="#" class="hamburger" data-bind="click: function(){HamburgerActive(!HamburgerActive());}, css: { 'hamburger-invert' : HamburgerActive}"></a>
-			                    <div id="dropdown" data-bind="visible: HamburgerActive"> 
-			                        <ul>
-			                            <!-- Nav items -->
-			                            <a href="#about-me"><li>About Me</li></a>
-			                            <a href="#resume"><li>Resume</li></a>
-			                            <a href="#contact"><li>Contact</li></a>
-			                        </ul>
-			                    </div>
-	                        </div>
-	                </nav>
-	            </div>
-	        </div>
-	    </div>
-	</header>
+<img id="bg-cover" src="img/homeslider.jpg" alt="bg">
+<div class="header-container">
+    <div class="default" id="header">
+        <div class="container container-top">            
+            <!-- Navigation -->                
+            <div class="float-left">
+                <nav id="nav">
+                    <ul class="nav-default">
+                        <!-- Nav items -->
+                        <li><a class="active">Top</a></li>
+                        <li><a data-nav="about-me" href="#about-me">About Me</a></li>
+                        <li><a data-nav="resume" href="#resume">Resume</a></li>
+                        <li><a data-nav="contact" href="#contact">Contact</a></li>
+                    </ul>
+                        <!-- Hamburger -->
+                        <div id="dropdown-container">
+		                    <a id="hamburger" href="#" class="hamburger"></a>
+		                    <div id="dropdown"> 
+		                        <ul>
+		                            <!-- Nav items -->
+		                            <a href="#about-me"><li>About Me</li></a>
+		                            <a href="#resume"><li>Resume</li></a>
+		                            <a href="#contact"><li>Contact</li></a>
+		                        </ul>
+		                    </div>
+                        </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
 <body class="index cf" id="top">
 
 <div id="main-viewport">
@@ -117,13 +120,6 @@
         <li><a href="Resume.pdf" download>Click to download PDF resume</a></li>
     </ul>
 </div>
-<
-<!-- Minified JS -->
-<script src="dist/scripts.min.js"></script>
-
-<!-- GitHub buttons -->
-<script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
-
 	<!-- http -->
 </body>
 </html>

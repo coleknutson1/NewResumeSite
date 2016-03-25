@@ -522,7 +522,7 @@ h3 a:hover {
     color: #000000;
     font-size: 50px;
     text-shadow: -2px 3px 1px rgba(161, 161, 161, 0.38);
-    padding: 10px 0 0 30px;
+    padding: 10px 0 50px 30px;
 }
 
 div.resume-header {
@@ -850,8 +850,7 @@ a.btn:hover {
 }
 
 .fixed {
-    position:fixed !important;
-    top:0 !important;
+    position:fixed;
+    top:0;
+    background: rgb(139, 195, 74);
 }
-
-html, body {height:100%;overflow:auto}
