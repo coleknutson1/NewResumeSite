@@ -14,113 +14,56 @@
 
     <!-- Mobile -->
     <meta content="width=device-width, user-scalable=no" name="viewport">
-    <script src="dist/knockout-3.4.0.js" type="text/javascript"></script>
     <script src="dist/jquery-1.12.2.min.js" type="text/javascript"></script>
 	<!-- Minified JS -->
 	<script src="dist/scripts.min.js"></script>
 
 </head>
 <img id="bg-cover" src="img/homeslider.jpg" alt="bg">
-<div class="header-container">
-    <div class="default" id="header">
-        <div class="container container-top">            
-            <!-- Navigation -->                
-            <div class="float-left">
-                <nav id="nav">
-                    <ul class="nav-default">
-                        <!-- Nav items -->
-                        <li><a class="active">Top</a></li>
-                        <li><a>About Me</a></li>
-                        <li><a>Resume</a></li>
-                        <li><a>Contact</a></li>
-                    </ul>
-                        <!-- Hamburger -->
-                        <div id="dropdown-container">
-		                    <a id="hamburger" href="#" class="hamburger"></a>
-		                    <div id="dropdown"> 
-		                        <ul>
-		                            <!-- Nav items -->
-		                            <a href="#about-me"><li>About Me</li></a>
-		                            <a href="#resume"><li>Resume</li></a>
-		                            <a href="#contact"><li>Contact</li></a>
-		                        </ul>
-		                    </div>
-                        </div>
-                </nav>
-            </div>
-        </div>
-    </div>
-</div>
-<body class="index cf" id="top">
-
-<div id="main-viewport">
-	<!-- Fold -->
-	<div id="carousel">
-	    <div class="container">
-	        <div class="buffer-top" id="hero">        
-	            <!-- Introduction -->                
-	            <h1 class="fadein-fast">Cole Knutson</h1>
-	            <p class="fadein-fast">I am a front-end developer based in the Twin Cities. I love creating and modifying websites.</p>
+<div id="initial-view">
+	<div class="header-container">
+	    <div class="default" id="header">
+	        <div class="container container-top">            
+	            <!-- Navigation -->                
+	            <div class="float-left">
+	                <nav id="nav">
+	                    <ul class="nav-default">
+	                        <!-- Nav items -->
+	                        <li id="top-button"><a class="active">Top</a></li>
+	                        <li id="about-me-button"><a>About Me</a></li>
+	                        <li id="resume-button"><a>Resume</a></li>
+	                        <li id="contact-button"><a>Contact</a></li>
+	                    </ul>
+	                </nav>
+	            </div>
 	        </div>
 	    </div>
 	</div>
-</div>
+	<body class="index cf" id="top">
 
-<main>
-<div id="center" id="links">
-	<div id="about-me" class="page-header">
-		About Me
+	<div id="main-viewport">
+		<!-- Fold -->
+		    <div class="container">
+		        <div class="buffer-top" id="hero">        
+		            <!-- Introduction -->                
+		            <h1 class="fadein-fast">Cole Knutson</h1>
+		            <p class="fadein-fast">I am a front-end developer based in the Twin Cities. I love creating and modifying websites.</p>
+		        </div>
+		    </div>
 	</div>
-	<div id="about-me-section">		
-		I like doing stuff. And guitar and stuff. Placeholder text.............................. a;lksjdfjl ajs;ldj ;lakjsdl;k jal;ksjdlj ;dkljl;k jl;j;lj;l
-		<video id="video1" style="width:300px;max-width:100%;" controls="" autoplay loop>
-    	<source src="img/platformer.webm" type="video/webm">
-    		Your browser does not support HTML5 video.
-  		</video>
-  		<video id="video1" style="width:300px;max-width:100%;" controls="" autoplay loop>
-    	<source src="img/collision.webm" type="video/webm">
-    		Your browser does not support HTML5 video.
-  		</video>
-	</div>
-	<div style="text-align: center"><div class="separator"></div></div>
-	<!-- Resume -->
-	<div id="resume" class="page-header">
-		Resume
-	</div>
-	<div id="resume-section">		
-		<ul>
-			<li><a data-nav="imagetrend" href="#imagetrend">ImageTrend</a></li>
-			<li><a data-nav="maverick" href="#maverick">Maverick</a></li>
-			<li><a data-nav="msu" href="#msu">MSU</a></li>
-		</ul>
-		<div id="bulletpoint-container">
-			<div id="imagetrend" class="resume-header">ImageTrend</div>	
-			<p>
-			•Work on ImageTrend's flagship product, “ImageTrend Elite”, a large piece of software used by EMTs and Firefighters on the scene •Use the best HTML, CSS, and Javascript practices to make the application maintainable, scalable, and reusable
-			</p>
-			<div  id="maverick" class="resume-header">Maverick Software Consulting</div>
-			<p>
-			•Worked as an intern at Mankato for Maverick Software, a collaborative effort between Maverick Software Consulting, MSU and    Thomson Reuters which allows students to develop real world experience in IT positions
-			</p>
-			<div id="msu" class="resume-header">Mankato State University, Mankato</div>
-			<p>
-			Minnesota State University, Mankato Minor: English May 2015 Bachelor of Science: Information Technology                                                                          GPA: 3.2
-			</p>
-		</div>		
-	</div>
-	<div class="separator"></div>
-	<div id="contact" class="page-header">
-		Contact Me
-	</div>
-	<div id="contact-section">
-		Gmail: cole.knutson1@gmail.com
-	</div>
-    <ul>
-        <!-- Links -->
-        <li><a href="Resume.pdf" download>Click to download PDF resume</a></li>
-    </ul>
 </div>
-	<!-- http -->
+<div id="about-me" class="content-section">
+<h1>About Me</h1>
+</div>
+<div class="seperator"></div>
+<div id="resume" class="content-section">
+<h1>Resume</h1>
+</div>
+<div class="seperator"></div>
+<div id="contact-me" class="content-section">
+<h1>Contact Me</h1>
+</div>
+<div class="seperator"></div>
 </body>
 </html>
                             
