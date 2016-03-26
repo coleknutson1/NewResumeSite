@@ -181,7 +181,7 @@ h3 a {
     color: #fff
 }
 .active {
-    border-bottom: rgb(89, 168, 149) 4px solid;
+    border-bottom: rgba(233, 30, 99, 0.78) 4px solid;
 }
 .header-container {
     height: 90px;
@@ -327,7 +327,7 @@ nav li a:hover {
 }
 .index #nav li a:hover {
     background: 0 0;
-    color: rgba(85, 216, 54, 0.95);
+    color: #FFC107;
 }
 h1 {
     font-size: 55px;
@@ -579,5 +579,10 @@ html.spring-bg {
 }
 
 #fixed-container {
-    background: rgb(160, 110, 95) !important;
+    background: #a90329; /* Old browsers */
+    background: -moz-linear-gradient(top, #a90329 0%, #8f0222 44%, #6d0019 88%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #a90329 0%,#8f0222 44%,#6d0019 88%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #a90329 0%,#8f0222 44%,#6d0019 88%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 ); /* IE6-9 */
+    z-index: 999;
 }
