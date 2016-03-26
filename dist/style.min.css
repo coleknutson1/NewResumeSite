@@ -263,7 +263,7 @@ h3 a {
 }
 .header-container {
     height: 90px;
-    background: rgba(95, 158, 160, 0.61);
+    background: rgba(160, 110, 95, 0.61);
     border-radius: 5px;
 }
 #social img {
@@ -436,9 +436,8 @@ p {
 
 .float-left {
     float: left;
-    transform: translateX(-25vh);
-
 }
+
 .pull-left {
     text-align: left
 }
@@ -588,14 +587,36 @@ a.btn:hover {
     background:white;
     width:100%;
     height:500px;
+   -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.29);
 }
 
 .seperator
 {
-    height:35vh;
+    height:50vh;
     width:100%;
 }
 
 .content-section h1{
     color:black;
+    padding: .25em 0 0 .5em; 
+}
+
+.autumn-shadow{
+    text-shadow: 4px 4px 6px rgb(189, 113, 2);
+}
+
+.context-box {
+    margin: 2em 0 0 2.5em;
+    padding: 1em;
+    background: rgba(191, 128, 30, 0.11);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    width:90%;
+}
+
+#resume{
+    background: #fafafa url(../img/noise.png);
 }
