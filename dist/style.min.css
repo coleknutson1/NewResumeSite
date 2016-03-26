@@ -1,83 +1,5 @@
-abbr,
-acronym,
-address,
-applet,
-article,
-aside,
-audio,
-b,
-big,
-blockquote,
-body,
-canvas,
-caption,
-center,
-cite,
-code,
-dd,
-del,
-details,
-dfn,
-div,
-dl,
-dt,
-em,
-embed,
-fieldset,
-figcaption,
-figure,
-footer,
-form,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-header,
-hgroup,
-html,
-i,
-iframe,
-img,
-ins,
-kbd,
-label,
-legend,
-li,
-mark,
-menu,
-nav,
-object,
-ol,
-output,
-p,
-pre,
-q,
-ruby,
-s,
-samp,
-section,
-small,
-span,
-strike,
-strong,
-sub,
-summary,
-sup,
-table,
-tbody,
-td,
-tfoot,
-th,
-thead,
-time,
-tr,
-tt,
-u,
-ul,
-var,
-video {
+abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video
+{
     margin: 0;
     padding: 0;
     border: 0;
@@ -608,7 +530,7 @@ a.btn:hover {
 }
 
 .context-box {
-    margin: 2em 0 0 2.5em;
+    margin: 2em 0 2.5em 2.5em;
     padding: 1em;
     background: rgba(191, 128, 30, 0.11);
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
@@ -638,4 +560,15 @@ html.summer-bg {
 
 html.spring-bg {
     background-image:url(../img/spring.jpg);
+}
+
+@media (max-width: 450) {
+    #nav .nav-default li a {
+        padding: 85px 25px 40px;
+    }
+}
+@media (max-width: 400px) {
+    #nav .nav-default li a {
+        padding: 85px 20px 40px;
+    }
 }
