@@ -544,22 +544,10 @@ a.btn:hover {
 }
 
 html {
-    background-image:url(../img/homeslider.jpg);
+    background: rgb(96, 125, 139);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; 
-}
-
-html.winter-bg {
-    background-image:url(../img/winter.jpg);
-}
-
-html.summer-bg {
-    background-image:url(../img/summer.jpg);
-}
-
-html.spring-bg {
-    background-image:url(../img/spring.jpg);
 }
 
 @media (max-width: 450) {
