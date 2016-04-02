@@ -350,7 +350,7 @@ p {
 }
 
 .buffer-top {
-    margin-top: 25vh;
+    margin: 25vh 2em;
 }
 .buffer-bottom {
     margin-bottom: 10px
@@ -524,7 +524,7 @@ a.btn:hover {
 
 .content-section h1{
     color:black;
-    padding: .25em 0 0 .5em; 
+    padding-top: .35em;
 }
 
 .autumn-shadow{
@@ -532,7 +532,7 @@ a.btn:hover {
 }
 
 .context-box {
-    margin: 2em 0 2.5em 2.5em;
+    margin: 2em auto 2.5em auto;
     padding: 1em;
     background: rgba(191, 128, 30, 0.11);
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
@@ -560,6 +560,10 @@ html {
     .header-container .float-left{
         float: none !important;
     }
+
+    html{
+        overflow-x: hidden;
+    }
 }
 
 @media (max-width: 350px) {
@@ -571,6 +575,7 @@ html {
 {
     .container{
         width:100vw;
+
     }
 }
 
