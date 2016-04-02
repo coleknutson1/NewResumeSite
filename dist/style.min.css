@@ -605,3 +605,7 @@ video {
     margin-left: 2em;
     cursor:pointer;
 }
+
+#pdf-resume{
+    cursor: pointer;
+}
