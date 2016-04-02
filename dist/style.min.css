@@ -185,7 +185,11 @@ h3 a {
 }
 .header-container {
     height: 90px;
-    background: rgba(160, 110, 95, 0.61);
+    background: #a90329; /* Old browsers */
+    background: -moz-linear-gradient(top, #a90329 0%, #8f0222 44%, #6d0019 88%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #a90329 0%,#8f0222 44%,#6d0019 88%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #a90329 0%,#8f0222 44%,#6d0019 88%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 ); /* IE6-9 */
 }
 #social img {
     width: 22px;
@@ -318,7 +322,14 @@ a.button:hover {
     font-size: 0
 }
 .index #nav li a {
-    color: #FFF
+    color: #FFF;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* IE/Edge */
+    user-select: none;           /* non-prefixed version, currently
+                              not supported by any browser */
 }
 
 nav li a:hover {
@@ -576,11 +587,6 @@ html {
 }
 
 #fixed-container {
-    background: #a90329; /* Old browsers */
-    background: -moz-linear-gradient(top, #a90329 0%, #8f0222 44%, #6d0019 88%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, #a90329 0%,#8f0222 44%,#6d0019 88%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, #a90329 0%,#8f0222 44%,#6d0019 88%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 ); /* IE6-9 */
     z-index: 999;
 }
 
