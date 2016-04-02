@@ -598,3 +598,10 @@ video {
     width:75%;
     margin: 0 auto 0 auto;
 }
+
+#face{
+    border-radius: 50%;
+    float: left; 
+    margin-left: 2em;
+    cursor:pointer;
+}
