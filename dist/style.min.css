@@ -20,7 +20,10 @@ section {
     display: block
 }
 body {
-    line-height: 1
+    line-height: 1;
+    background-image: url('../img/forest-trees-fog-foggy.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 ol,
 ul {
@@ -515,15 +518,18 @@ a.btn:hover {
     width: 100%;
 }
 
-.content-section
-{
-    background:white;
-    width:100%;
+.content-section {
+    background: #AFACAC;
+    width: 100%;
     height: 75vh;
-   -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.29);
     text-align: center;
+    border-radius: 0px 0px 0px 0px;
+    -moz-border-radius: 0px 0px 0px 0px;
+    -webkit-border-radius: 0px 0px 0px 0px;
+    border: 4px solid #000000;
 }
 
 .seperator
