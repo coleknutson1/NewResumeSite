@@ -186,7 +186,6 @@ h3 a {
 .header-container {
     height: 90px;
     background: rgba(160, 110, 95, 0.61);
-    border-radius: 5px;
 }
 #social img {
     width: 22px;
@@ -509,7 +508,7 @@ a.btn:hover {
 {
     background:white;
     width:100%;
-    height: 550px;
+    height: 75vh;
    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.29);
@@ -533,14 +532,7 @@ a.btn:hover {
 
 .context-box {
     margin: 2em auto 2.5em auto;
-    padding: 1em;
-    background: rgba(191, 128, 30, 0.11);
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    width:90%;
 }
-
 #resume{
     background: #fafafa url(../img/noise.png);
 }
@@ -594,4 +586,9 @@ html {
 
 video {
     float: left;
+}
+
+.autoplay {
+    width:75%;
+    margin: 0 auto 0 auto;
 }
